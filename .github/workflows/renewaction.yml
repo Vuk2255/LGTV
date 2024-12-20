@@ -10,4 +10,4 @@ jobs:
     steps:
       - name: Make API Request
         run: |
-          curl -X GET URL
+          curl -X GET https://developer.lge.com/secure/ResetDevModeSession.dev?sessionToken=733696018f3c9b0e0fdcd8641c28b3434b6d37b469d10176f2c7df86fdea14c1
